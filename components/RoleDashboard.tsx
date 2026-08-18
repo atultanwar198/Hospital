@@ -1,7 +1,7 @@
 import { DashboardCard } from "@/components/DashboardCard";
 import type { User } from "@/backend/users";
 const content = {
-  user: [
+  patient: [
     ["Upcoming visit", "Annual check-up • Friday, 10:30 AM"],
     ["Care team", "Message your assigned clinician securely."],
     ["Health summary", "Review recent visit notes and prescriptions."],

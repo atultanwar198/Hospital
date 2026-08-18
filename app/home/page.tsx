@@ -12,11 +12,7 @@ function HomePage() {
           <h1 className="mt-4 max-w-2xl text-5xl font-extrabold leading-[.96] tracking-tighter text-slate-900 md:text-7xl">
             Healthcare, with everyone in sync.
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
-            CarePortal gives patients, clinicians, staff, and administrators one
-            clear place to access the information and tools relevant to their
-            work.
-          </p>
+
           <Link
             className="mt-7 inline-block rounded-lg bg-cyan-700 px-5 py-3 font-bold text-white hover:bg-cyan-900"
             href="/login"
