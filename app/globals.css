@@ -1,1 +1,33 @@
 @import "tailwindcss";
+@import "@toast-ui/calendar/dist/toastui-calendar.min.css";
+
+:root {
+  --primary: #1666a8;
+  --border: #e2e8f0;
+  --foreground: #1e293b;
+  --background: #f8fafc;
+  --card: #ffffff;
+  --muted-foreground: #64748b;
+}
+.sidebar-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* Firefox */
+.sidebar-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}

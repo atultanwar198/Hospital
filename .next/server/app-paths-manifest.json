@@ -1,12 +1,4 @@
 {
-  "/api/auth/login/route": "app/api/auth/login/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/admin/[slug]/page": "app/admin/[slug]/page.js",
-  "/doctor/[slug]/page": "app/doctor/[slug]/page.js",
-  "/home/page": "app/home/page.js",
-  "/hospital/page": "app/hospital/page.js",
   "/login/page": "app/login/page.js",
-  "/page": "app/page.js",
-  "/patient/[slug]/page": "app/patient/[slug]/page.js",
-  "/staff/[slug]/page": "app/staff/[slug]/page.js"
+  "/doctor/[slug]/page": "app/doctor/[slug]/page.js"
 }
