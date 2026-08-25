@@ -15,7 +15,7 @@ export function PatientShell({
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <div className="lg:flex">
+    <div className="patient-theme lg:flex">
       <Sidebar slug={slug} open={navOpen} onClose={() => setNavOpen(false)} />
       <div className="flex min-h-screen w-full min-w-0 flex-1 flex-col">
         <Topbar slug={slug} onMenuClick={() => setNavOpen(true)} />

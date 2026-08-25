@@ -27,7 +27,7 @@ export function RecentPayments({ slug }: { slug: string }) {
               </p>
             </div>
             <p className="shrink-0 font-mono text-sm font-semibold text-ink">
-              ${p.amount.toFixed(2)}
+              Rs{p.amount.toFixed(2)}
             </p>
             <StatusBadge tone={STATUS_TONE[p.status]} className="shrink-0">
               {p.status}

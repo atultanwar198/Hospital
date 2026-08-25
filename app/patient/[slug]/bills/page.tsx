@@ -32,10 +32,10 @@ export default async function BillsPage(props: PageProps<"/patient/[slug]">) {
       />
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        <StatCard label="Paid to date" value={`$${totalPaid.toFixed(2)}`} tone="good" />
+        <StatCard label="Paid to date" value={`₹${totalPaid.toFixed(2)}`} tone="good" />
         <StatCard
           label="Pending balance"
-          value={`$${totalPending.toFixed(2)}`}
+          value={`₹${totalPending.toFixed(2)}`}
           tone={totalPending > 0 ? "warning" : "good"}
         />
         <StatCard label="Open invoices" value={String(pendingCount)} tone="neutral" />
@@ -52,7 +52,7 @@ export default async function BillsPage(props: PageProps<"/patient/[slug]">) {
                 </p>
               </div>
               <p className="shrink-0 font-mono text-sm font-semibold text-ink">
-                ${p.amount.toFixed(2)}
+                ₹{p.amount.toFixed(2)}
               </p>
               <StatusBadge tone={STATUS_TONE[p.status]} className="hidden shrink-0 sm:inline-flex">
                 {p.status}
